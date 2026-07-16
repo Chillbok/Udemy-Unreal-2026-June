@@ -1,0 +1,720 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Chapter3 Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"Mac",
+				"Debug",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"Mac",
+				"Debug",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chapter3 Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"Mac",
+				"Debug",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"Mac",
+				"DebugGame",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"Mac",
+				"DebugGame",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chapter3 Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"Mac",
+				"DebugGame",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"Mac",
+				"Development",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"Mac",
+				"Development",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chapter3 Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"Mac",
+				"Development",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 Mac Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"Mac",
+				"Test",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 Mac Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"Mac",
+				"Test",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chapter3 Mac Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 Mac Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"Mac",
+				"Test",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 Mac Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"Mac",
+				"Shipping",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 Mac Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"Mac",
+				"Shipping",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chapter3 Mac Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 Mac Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"Mac",
+				"Shipping",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 IOS Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"IOS",
+				"Debug",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"IOS",
+				"Debug",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chapter3 IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 IOS Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"IOS",
+				"Debug",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"IOS",
+				"DebugGame",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"IOS",
+				"DebugGame",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chapter3 IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"IOS",
+				"DebugGame",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 IOS Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"IOS",
+				"Development",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"IOS",
+				"Development",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chapter3 IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 IOS Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"IOS",
+				"Development",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 IOS Test Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"IOS",
+				"Test",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"IOS",
+				"Test",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chapter3 IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 IOS Test Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"IOS",
+				"Test",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 IOS Shipping Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"IOS",
+				"Shipping",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"IOS",
+				"Shipping",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chapter3 IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3 IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3",
+				"IOS",
+				"Shipping",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3Editor Mac Debug Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3Editor",
+				"Mac",
+				"Debug",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3Editor Mac Debug Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3Editor",
+				"Mac",
+				"Debug",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chapter3Editor Mac Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3Editor Mac Debug Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3Editor",
+				"Mac",
+				"Debug",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3Editor Mac DebugGame Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3Editor",
+				"Mac",
+				"DebugGame",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3Editor Mac DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3Editor",
+				"Mac",
+				"DebugGame",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chapter3Editor Mac DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3Editor Mac DebugGame Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3Editor",
+				"Mac",
+				"DebugGame",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3Editor Mac Development Build",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3Editor",
+				"Mac",
+				"Development",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3Editor Mac Development Rebuild",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3Editor",
+				"Mac",
+				"Development",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"Chapter3Editor Mac Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		},
+		{
+			"label": "Chapter3Editor Mac Development Clean",
+			"group": "build",
+			"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+			"args": [
+				"Chapter3Editor",
+				"Mac",
+				"Development",
+				"/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/Chapter3.uproject",
+				"-waitmutex",
+				"-clean"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "/Users/Shared/Epic Games/UE_5.2"
+			}
+		}
+	]
+}

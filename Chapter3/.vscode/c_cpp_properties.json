@@ -1,0 +1,45 @@
+{
+    "configurations": [
+        {
+            "name": "Chapter3Editor Editor Mac Development (Chapter3)",
+            "compilerPath": "/Applications/Xcode-15.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+            "compilerArgs": [
+                "-isysroot",
+                "/Applications/Xcode-15.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+            ],
+            "macFrameworkPath": [
+                "/Applications/Xcode-15.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "configurationProvider": "epic.ue",
+            "compileCommands": [
+                "/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/.vscode/compileCommands_Chapter3.json"
+            ]
+        },
+        {
+            "name": "Mac",
+            "compilerPath": "/Applications/Xcode-15.2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++",
+            "compilerArgs": [
+                "-isysroot",
+                "/Applications/Xcode-15.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk"
+            ],
+            "macFrameworkPath": [
+                "/Applications/Xcode-15.2.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk/System/Library/Frameworks"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64",
+            "configurationProvider": "epic.ue",
+            "compileCommands": [
+                "/Users/junho/Repositories/Udemy-Unreal-2026-June/Chapter3/.vscode/compileCommands_Default.json"
+            ],
+            "includePath": [
+                "${workspaceFolder}/Intermediate/**",
+                "${workspaceFolder}/Source/**"
+            ]
+        }
+    ],
+    "version": 4
+}
