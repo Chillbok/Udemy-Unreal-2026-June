@@ -31,6 +31,11 @@ Thumbs.db
 **/*.xcworkspace
 
 # ---------------------------------------------------------------------------
+# JetBrains Rider generated files
+# ---------------------------------------------------------------------------
+**/.idea/
+
+# ---------------------------------------------------------------------------
 # Compiled Object files
 # ---------------------------------------------------------------------------
 **/*.slo
@@ -119,3 +124,24 @@ Thumbs.db
 # Cache files for the editor to use
 # ---------------------------------------------------------------------------
 **/DerivedDataCache/*
+
+# ---------------------------------------------------------------------------
+# 외부 에셋팩 (강의/마켓플레이스 제공 콘텐츠)
+# 
+# GitHub LFS 용량 관리를 위해 재다운로드 가능한 제3자 에셋팩은
+# git으로 추적하지 않습니다. 직접 만든 에셋(BP_*, *.umap 등)만 커밋합니다.
+# 원본 백업 위치: ~/Repositories/Udemy-AssetPacks-Backup/
+# ---------------------------------------------------------------------------
+**/Content/AssetPacks/
+**/Content/MedievalDungeon/
+**/Content/StarterContent/
+**/Content/IndustryPropsPack6/
+**/Content/LearningKit_Games/
+**/Content/LearningKit_Robots/
+**/Content/SCK_Casual01/
+**/Content/Hour_of_Code/
+**/Content/BlockGame/
+**/Content/FPWeapon/
+**/Content/FirstPersonArms/
+**/Content/FirstPerson/
+**/Content/LevelPrototyping/
